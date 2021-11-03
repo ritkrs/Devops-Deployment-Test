@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class TestController {
-	//Simple method
+	
 	@GetMapping("/data")
 	public String getData() {
 		return "Now its working fine";
